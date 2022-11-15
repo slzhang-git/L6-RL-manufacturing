@@ -17,7 +17,7 @@ The run files are
   
 2. <b>mip_plot.ipynb, plot_average_experiments.ipynb</b>
 
-  plot the comparison of total energy cost and total production throughput in units for the optimal policy and mixed-integer programming policy; also plot the average over 3 times of these experiments.
+  plot the comparison of total energy cost and total production throughput in units for the optimal policy and mixed-integer programming policy; also plot the average over 3 times of these experiments. Required txt files missed for execution of the two scripts, yet the author provided the processed results of the raw txt file, which makes the two scripts still available for reproduction. (2022.11.15)
 
 
 The main files are
