@@ -419,9 +419,9 @@ def Reinforcement_Learning_Training(System_init, #the initial system
                                     number_iteration, #the total number of training iterations
                                     ):
     
-    tf.enable_eager_execution()
+    # tf.enable_eager_execution() # deprecated in new version package 2022.11.15
     #set seed for tensorflow (including initialization of weights and bias) for reproducability
-    tf.set_random_seed(seed)     
+    tf.random.set_seed(seed) # tf.set_random_seed(seed)  # old and deprecated version of command 2022.11.15  
     #K.clear_session()
 
     #initialize#
