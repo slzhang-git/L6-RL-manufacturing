@@ -158,14 +158,14 @@ else:
     The 2nd Comparision Test: Comparison of the total cost, total throughput and total energy demand for the 
         optimal policy selected by reinforcement learning and the routine strategy selected by the mixed-integer programming;        
     """
-    target_output=int(RL_target_output)
+    #target_output=int(RL_target_output)
 
-    routine_start = time.process_time()
+    #routine_start = time.process_time()
     
-    RoutineStrategy_Testing(testing_number_iteration, target_output)
+    #RoutineStrategy_Testing(testing_number_iteration, target_output)
     
-    routine_end = time.process_time()
+    #routine_end = time.process_time()
     
-    print("Reinforcement Learning Training Time =", RL_end-RL_start, " seconds \n")
-    print("Mixed-Integer Programming Training Time =", routine_end-routine_start, " seconds")
+    #print("Reinforcement Learning Training Time =", RL_end-RL_start, " seconds \n")
+    #print("Mixed-Integer Programming Training Time =", routine_end-routine_start, " seconds")
 
