@@ -9,11 +9,11 @@ Accepted at <i>Applied Energy</i>.
 
 <b>The paper with Supplementary Materials is available here as the file MDP_paper_20220220_AppliedEnergyERevise.docx</b>
 
-The run files are 
+# File structure
 
 1. <b>experiments_comparison.py</b>
 
-  compares the efficiency of optimal solution selected by reinforcement learning, by mixed-integer programming routine          strategy and by benchmark random policy.
+  the mainfunction file, which compares the efficiency of optimal solution selected by reinforcement learning, by mixed-integer programming routine          strategy and by benchmark random policy.
   
 2. <b>mip_plot.ipynb, plot_average_experiments.ipynb</b>
 
